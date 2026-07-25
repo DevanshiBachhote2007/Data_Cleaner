@@ -19,6 +19,8 @@
   <a href="https://github.com/DevanshiBachhote2007/Data_Cleaner/blob/main/Data%20Cleanser/patient_health_records_500.csv"><img src="https://img.shields.io/badge/📊_Dataset-View_CSV-20BEFF?style=for-the-badge"></a>
   <a href="#-project-architecture"><img src="https://img.shields.io/badge/🏗️_Architecture-View_Diagram-FF6B6B?style=for-the-badge"></a>
   <a href="#-workflow-walkthrough"><img src="https://img.shields.io/badge/🔍_Workflow-See_Details-4ECDC4?style=for-the-badge"></a>
+  <a href=""><img src="https://img.shields.io/badge/📹_Video-Watch_Tutorial-FF0000?style=for-the-badge&logo=youtube"></a>
+  <a href=""><img src="https://img.shields.io/badge/📖_Theory-Read_PDF-EC1C24?style=for-the-badge&logo=adobe"></a>
 </p>
 
 ---
@@ -44,7 +46,7 @@
 
 > **"How do we ensure patient health data is reliable, complete, and ready for medical analysis?"**
 
-Healthcare datasets often suffer from **incomplete records, measurement errors, and anomalies** that can compromise clinical decision-making. This project treats **data cleaning and quality assurance** as a critical prerequisite to any health data analysis:
+Healthcare datasets often suffer from **incomplete records, measurement errors, and anomalies** that can compromise clinical decision-making. This project treats **data cleaning and quality assurance** as a professional engineering discipline:
 
 - **Data Quality Issues**: Missing values in age, BMI, cholesterol, glucose (5–8% each)
 - **Measurement Anomalies**: Extreme outliers (e.g., blood pressure >300 mmHg, glucose >380 mg/dL)
@@ -55,7 +57,7 @@ Healthcare datasets often suffer from **incomplete records, measurement errors, 
 
 ## 🎯 Project Overview
 
-This notebook walks through the **complete data cleaning lifecycle** — from identifying data quality issues, through multiple imputation and outlier detection strategies, to delivering a production-ready dataset suitable for medical research and predictive modeling.
+This notebook walks through the **complete data cleaning lifecycle** — from identifying data quality issues, through multiple imputation and outlier detection strategies, to delivering a production-ready dataset.
 
 It is organized into 3 structured parts, reflecting real-world data engineering workflows:
 
