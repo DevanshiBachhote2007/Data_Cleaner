@@ -19,8 +19,8 @@
   <a href="https://github.com/DevanshiBachhote2007/Data_Cleaner/blob/main/Data%20Cleanser/patient_health_records_500.csv"><img src="https://img.shields.io/badge/📊_Dataset-View_CSV-20BEFF?style=for-the-badge"></a>
   <a href="#-project-architecture"><img src="https://img.shields.io/badge/🏗️_Architecture-View_Diagram-FF6B6B?style=for-the-badge"></a>
   <a href="#-workflow-walkthrough"><img src="https://img.shields.io/badge/🔍_Workflow-See_Details-4ECDC4?style=for-the-badge"></a>
-  <a href=""><img src="https://img.shields.io/badge/📹_Video-Watch_Tutorial-FF0000?style=for-the-badge&logo=youtube"></a>
-  <a href=""><img src="https://img.shields.io/badge/📖_Theory-Read_PDF-EC1C24?style=for-the-badge&logo=adobe"></a>
+  <a href="https://drive.google.com/file/d/1UmJH5AdtvnROa8-nRxGivQNMtAYrpkyA/view?usp=sharing"><img src="https://img.shields.io/badge/📹_Video-Watch_Tutorial-FF0000?style=for-the-badge&logo=youtube"></a>
+  <a href="https://github.com/DevanshiBachhote2007/Data_Cleaner/blob/main/Data%20Cleanser/Data%20Cleaner%20Theory.pdf"><img src="https://img.shields.io/badge/📖_Theory-Read_PDF-EC1C24?style=for-the-badge&logo=adobe"></a>
 </p>
 
 ---
@@ -76,30 +76,30 @@ Raw Patient Health Data (500 records × 9 features)
      │
      ▼
 ┌─────────────────────────────────────────────────────────┐
-│  PART A — MISSING VALUE HANDLING                         │
-│  • Identify missing % per column                          │
-│  • Apply Median/Mode/KNN/MICE imputation                 │
-│  • Add missing indicators (transparency)                  │
-│  Result: 100% data completeness                          │
+│  PART A — MISSING VALUE HANDLING                        │
+│  • Identify missing % per column                        │
+│  • Apply Median/Mode/KNN/MICE imputation                │
+│  • Add missing indicators (transparency)                │
+│  Result: 100% data completeness                         │
 └─────────────────────────────────────────────────────────┘
      │
      ▼
 ┌─────────────────────────────────────────────────────────┐
-│  PART B — OUTLIER DETECTION & TREATMENT                  │
+│  PART B — OUTLIER DETECTION & TREATMENT                 │
 │  • Z-Score: Cholesterol & Glucose (±3 SD)               │
-│  • IQR: BMI (Q1 - 1.5×IQR, Q3 + 1.5×IQR)               │
-│  • Percentile: Blood Pressure (1st, 99th percentile)     │
-│  • Winsorization: Cap extreme values                      │
-│  Result: Stable, clinically meaningful distributions      │
+│  • IQR: BMI (Q1 - 1.5×IQR, Q3 + 1.5×IQR)                │
+│  • Percentile: Blood Pressure (1st, 99th percentile)    │
+│  • Winsorization: Cap extreme values                    │
+│  Result: Stable, clinically meaningful distributions    │
 └─────────────────────────────────────────────────────────┘
      │
      ▼
 ┌─────────────────────────────────────────────────────────┐
-│  PART C — VALIDATION & DELIVERY                          │
-│  • Before vs After comparison                            │
-│  • Summary statistics validation                         │
-│  • Dataset shape & quality metrics                       │
-│  Result: 500 × 10 clean dataset ready for analysis       │
+│  PART C — VALIDATION & DELIVERY                         │
+│  • Before vs After comparison                           │
+│  • Summary statistics validation                        │
+│  • Dataset shape & quality metrics                      │
+│  Result: 500 × 10 clean dataset ready for analysis      │
 └─────────────────────────────────────────────────────────┘
 ```
 
